@@ -45,7 +45,7 @@ struct InformationElement {
  * value the field contains. If the upper bytes are all zero, this will
  * get the correct value, otherwise, it will be slightly incorrect.
  *****************************************************************************/
-static unsigned
+unsigned
 ie_to_unsigned(struct InformationElement ie)
 {
 	unsigned result = 0;
@@ -166,7 +166,7 @@ get_information_element(const unsigned char *px, unsigned offset, unsigned lengt
 
 /*****************************************************************************
  *****************************************************************************/
-static unsigned
+unsigned
 smellslike_80211n(const unsigned char *px, unsigned offset, unsigned length)
 {
 	struct InformationElement ie;
@@ -1013,7 +1013,7 @@ unsigned test_wep_decrypt(
 		{104, "\x12\x34\x56\x78\x90\xab\xcd\xef\x12\x34\x56\x78\x90"},
 	};
 
-	int foo;
+	//int foo;
 
 
 	if (length > 4)
@@ -1280,7 +1280,7 @@ parse_wifi_data(struct Krackips *krackips, struct NetFrame *frame, const unsigne
 
 /*****************************************************************************
  *****************************************************************************/
-static unsigned
+unsigned
 filtered_out(struct NetFrame *frame, const char *mac_address)
 {
 	if (frame->src_mac && memcmp(frame->src_mac, mac_address, 6) == 0)

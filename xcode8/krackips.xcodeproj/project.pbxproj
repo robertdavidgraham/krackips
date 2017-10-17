@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		116A50CB1F957FD3004BE36F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 116A50CA1F957FD3004BE36F /* main.c */; };
+		116A50E01F95801E004BE36F /* crypto-fnv1a.c in Sources */ = {isa = PBXBuildFile; fileRef = 116A50CD1F95801E004BE36F /* crypto-fnv1a.c */; };
+		116A50E11F95801E004BE36F /* hexval.c in Sources */ = {isa = PBXBuildFile; fileRef = 116A50D01F95801E004BE36F /* hexval.c */; };
+		116A50E21F95801E004BE36F /* manuf.c in Sources */ = {isa = PBXBuildFile; fileRef = 116A50D21F95801E004BE36F /* manuf.c */; };
+		116A50E31F95801E004BE36F /* mystring.c in Sources */ = {isa = PBXBuildFile; fileRef = 116A50D41F95801E004BE36F /* mystring.c */; };
+		116A50E41F95801E004BE36F /* pcapfile.c in Sources */ = {isa = PBXBuildFile; fileRef = 116A50D71F95801E004BE36F /* pcapfile.c */; };
+		116A50E51F95801E004BE36F /* pcaplive.c in Sources */ = {isa = PBXBuildFile; fileRef = 116A50D91F95801E004BE36F /* pcaplive.c */; };
+		116A50E61F95801E004BE36F /* pixie.c in Sources */ = {isa = PBXBuildFile; fileRef = 116A50DB1F95801E004BE36F /* pixie.c */; };
+		116A50E71F95801E004BE36F /* sprintf_s.c in Sources */ = {isa = PBXBuildFile; fileRef = 116A50DE1F95801E004BE36F /* sprintf_s.c */; };
+		116A50EA1F958038004BE36F /* detect.c in Sources */ = {isa = PBXBuildFile; fileRef = 116A50E81F958038004BE36F /* detect.c */; };
+		116A50EC1F95804C004BE36F /* stackwifi.c in Sources */ = {isa = PBXBuildFile; fileRef = 116A50EB1F95804C004BE36F /* stackwifi.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		116A50BE1F957F97004BE36F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		116A50C01F957F97004BE36F /* krackips */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = krackips; sourceTree = BUILT_PRODUCTS_DIR; };
+		116A50CA1F957FD3004BE36F /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main.c; path = ../../src/main.c; sourceTree = "<group>"; };
+		116A50CC1F95800B004BE36F /* krackips.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = krackips.h; path = ../../src/krackips.h; sourceTree = "<group>"; };
+		116A50CD1F95801E004BE36F /* crypto-fnv1a.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "crypto-fnv1a.c"; path = "../../src/module/crypto-fnv1a.c"; sourceTree = "<group>"; };
+		116A50CE1F95801E004BE36F /* crypto-fnv1a.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "crypto-fnv1a.h"; path = "../../src/module/crypto-fnv1a.h"; sourceTree = "<group>"; };
+		116A50CF1F95801E004BE36F /* formats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = formats.h; path = ../../src/module/formats.h; sourceTree = "<group>"; };
+		116A50D01F95801E004BE36F /* hexval.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hexval.c; path = ../../src/module/hexval.c; sourceTree = "<group>"; };
+		116A50D11F95801E004BE36F /* hexval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hexval.h; path = ../../src/module/hexval.h; sourceTree = "<group>"; };
+		116A50D21F95801E004BE36F /* manuf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = manuf.c; path = ../../src/module/manuf.c; sourceTree = "<group>"; };
+		116A50D31F95801E004BE36F /* manuf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = manuf.h; path = ../../src/module/manuf.h; sourceTree = "<group>"; };
+		116A50D41F95801E004BE36F /* mystring.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mystring.c; path = ../../src/module/mystring.c; sourceTree = "<group>"; };
+		116A50D51F95801E004BE36F /* mystring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mystring.h; path = ../../src/module/mystring.h; sourceTree = "<group>"; };
+		116A50D61F95801E004BE36F /* netframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = netframe.h; path = ../../src/module/netframe.h; sourceTree = "<group>"; };
+		116A50D71F95801E004BE36F /* pcapfile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pcapfile.c; path = ../../src/module/pcapfile.c; sourceTree = "<group>"; };
+		116A50D81F95801E004BE36F /* pcapfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pcapfile.h; path = ../../src/module/pcapfile.h; sourceTree = "<group>"; };
+		116A50D91F95801E004BE36F /* pcaplive.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pcaplive.c; path = ../../src/module/pcaplive.c; sourceTree = "<group>"; };
+		116A50DA1F95801E004BE36F /* pcaplive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pcaplive.h; path = ../../src/module/pcaplive.h; sourceTree = "<group>"; };
+		116A50DB1F95801E004BE36F /* pixie.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pixie.c; path = ../../src/module/pixie.c; sourceTree = "<group>"; };
+		116A50DC1F95801E004BE36F /* pixie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pixie.h; path = ../../src/module/pixie.h; sourceTree = "<group>"; };
+		116A50DD1F95801E004BE36F /* platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = platform.h; path = ../../src/module/platform.h; sourceTree = "<group>"; };
+		116A50DE1F95801E004BE36F /* sprintf_s.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sprintf_s.c; path = ../../src/module/sprintf_s.c; sourceTree = "<group>"; };
+		116A50DF1F95801E004BE36F /* sprintf_s.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sprintf_s.h; path = ../../src/module/sprintf_s.h; sourceTree = "<group>"; };
+		116A50E81F958038004BE36F /* detect.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = detect.c; path = ../../src/detect/detect.c; sourceTree = "<group>"; };
+		116A50E91F958038004BE36F /* detect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = detect.h; path = ../../src/detect/detect.h; sourceTree = "<group>"; };
+		116A50EB1F95804C004BE36F /* stackwifi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stackwifi.c; path = ../../src/netstack/stackwifi.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		116A50BD1F957F97004BE36F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		116A50B71F957F97004BE36F = {
+			isa = PBXGroup;
+			children = (
+				116A50C21F957F97004BE36F /* krackips */,
+				116A50C11F957F97004BE36F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		116A50C11F957F97004BE36F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				116A50C01F957F97004BE36F /* krackips */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		116A50C21F957F97004BE36F /* krackips */ = {
+			isa = PBXGroup;
+			children = (
+				116A50EB1F95804C004BE36F /* stackwifi.c */,
+				116A50E81F958038004BE36F /* detect.c */,
+				116A50E91F958038004BE36F /* detect.h */,
+				116A50CD1F95801E004BE36F /* crypto-fnv1a.c */,
+				116A50CE1F95801E004BE36F /* crypto-fnv1a.h */,
+				116A50CF1F95801E004BE36F /* formats.h */,
+				116A50D01F95801E004BE36F /* hexval.c */,
+				116A50D11F95801E004BE36F /* hexval.h */,
+				116A50D21F95801E004BE36F /* manuf.c */,
+				116A50D31F95801E004BE36F /* manuf.h */,
+				116A50D41F95801E004BE36F /* mystring.c */,
+				116A50D51F95801E004BE36F /* mystring.h */,
+				116A50D61F95801E004BE36F /* netframe.h */,
+				116A50D71F95801E004BE36F /* pcapfile.c */,
+				116A50D81F95801E004BE36F /* pcapfile.h */,
+				116A50D91F95801E004BE36F /* pcaplive.c */,
+				116A50DA1F95801E004BE36F /* pcaplive.h */,
+				116A50DB1F95801E004BE36F /* pixie.c */,
+				116A50DC1F95801E004BE36F /* pixie.h */,
+				116A50DD1F95801E004BE36F /* platform.h */,
+				116A50DE1F95801E004BE36F /* sprintf_s.c */,
+				116A50DF1F95801E004BE36F /* sprintf_s.h */,
+				116A50CC1F95800B004BE36F /* krackips.h */,
+				116A50CA1F957FD3004BE36F /* main.c */,
+			);
+			name = krackips;
+			path = xcode8;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		116A50BF1F957F97004BE36F /* krackips */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 116A50C71F957F97004BE36F /* Build configuration list for PBXNativeTarget "krackips" */;
+			buildPhases = (
+				116A50BC1F957F97004BE36F /* Sources */,
+				116A50BD1F957F97004BE36F /* Frameworks */,
+				116A50BE1F957F97004BE36F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = krackips;
+			productName = xcode8;
+			productReference = 116A50C01F957F97004BE36F /* krackips */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		116A50B81F957F97004BE36F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Robert Graham";
+				TargetAttributes = {
+					116A50BF1F957F97004BE36F = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 116A50BB1F957F97004BE36F /* Build configuration list for PBXProject "krackips" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 116A50B71F957F97004BE36F;
+			productRefGroup = 116A50C11F957F97004BE36F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				116A50BF1F957F97004BE36F /* krackips */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		116A50BC1F957F97004BE36F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116A50E51F95801E004BE36F /* pcaplive.c in Sources */,
+				116A50E11F95801E004BE36F /* hexval.c in Sources */,
+				116A50EA1F958038004BE36F /* detect.c in Sources */,
+				116A50E41F95801E004BE36F /* pcapfile.c in Sources */,
+				116A50CB1F957FD3004BE36F /* main.c in Sources */,
+				116A50E01F95801E004BE36F /* crypto-fnv1a.c in Sources */,
+				116A50E31F95801E004BE36F /* mystring.c in Sources */,
+				116A50E21F95801E004BE36F /* manuf.c in Sources */,
+				116A50EC1F95804C004BE36F /* stackwifi.c in Sources */,
+				116A50E71F95801E004BE36F /* sprintf_s.c in Sources */,
+				116A50E61F95801E004BE36F /* pixie.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		116A50C51F957F97004BE36F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		116A50C61F957F97004BE36F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		116A50C81F957F97004BE36F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = ../src;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = ../bin;
+			};
+			name = Debug;
+		};
+		116A50C91F957F97004BE36F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = ../src;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = ../bin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		116A50BB1F957F97004BE36F /* Build configuration list for PBXProject "krackips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				116A50C51F957F97004BE36F /* Debug */,
+				116A50C61F957F97004BE36F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		116A50C71F957F97004BE36F /* Build configuration list for PBXNativeTarget "krackips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				116A50C81F957F97004BE36F /* Debug */,
+				116A50C91F957F97004BE36F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 116A50B81F957F97004BE36F /* Project object */;
+}

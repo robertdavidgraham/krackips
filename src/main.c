@@ -1579,7 +1579,7 @@ int main(int argc, char **argv)
 	int i;
 	struct Krackips *krackips;
 
-	fprintf(stderr, "-- wifi-mon 2.0 - (c) 2008-2017 Robert David Graham\n");
+	fprintf(stderr, "-- krackips 1.0 - (c) 2008-2017 Robert David Graham\n");
 	fprintf(stderr, "-- build = %s %s (%u-bits)\n", __DATE__, __TIME__, (unsigned)sizeof(size_t)*8);
 
 	/*
@@ -1692,6 +1692,7 @@ int main(int argc, char **argv)
 		launch_thread(krackips, krackips->interface_name);
 	}
 
+    /*
 	{unsigned i=0;
 	while (!control_c_pressed) {
 		printf("%c\x08", "|\\-/"[i&0x03]);
@@ -1699,7 +1700,7 @@ int main(int argc, char **argv)
 		i++;
 		pixie_sleep(1000);
 	}
-	}
+	}*/
 
 	krackips_destroy(krackips);
 

@@ -10,6 +10,9 @@ extern "C" {
 #include <time.h>
 #include "detect/detect.h"
 
+
+struct NetFrame;
+    
 struct TCPENTRY {
 	unsigned ip_src;
 	unsigned ip_dst;
