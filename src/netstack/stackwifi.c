@@ -1,9 +1,9 @@
 /* Copyright (c) 2007 by Errata Security, All Rights Reserved
  * Programer(s): Robert David Graham [rdg]
  */
-#include "krackips.h"
-#include "module/formats.h"
-#include "module/netframe.h"
+#include "../krackips.h"
+#include "../module/formats.h"
+#include "../module/netframe.h"
 
 #include <string.h>
 #include <stdio.h>
